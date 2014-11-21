@@ -1,0 +1,18 @@
+.parcial {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.item-lista {
+  margin-bottom: 2%;
+  list-style-type: none;
+}
+
+#filtro {
+	margin-bottom: 2%;
+}
+
+.capa-boton {
+	width: 100%;
+	text-align: center;
+	margin-top: 2%;
+}

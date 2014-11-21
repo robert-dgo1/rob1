@@ -1,0 +1,12 @@
+<h1> Tweet existentes </h1>
+
+<br><br>
+	<ul class="list-group">
+
+	<li ng-repeat="incidencia in incidencias | filter: filtro"
+		class="item-lista list-group-item">
+		<div><a ng-href="#/ver/{{incidencia._id}}">{{incidencia.titulo}}</a>  el usuario escribio el siguiente Tweet:  {{incidencia.autor}}</div>
+	</li>
+</ul>
+
+
